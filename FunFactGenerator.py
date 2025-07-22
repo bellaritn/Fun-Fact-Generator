@@ -74,6 +74,7 @@ def show_used_facts():
 if __name__ == "__main__":
     root = tk.Tk()
     root.title("Fun Fact Generator")
+    root.geometry("300x200")
     
     label = tk.Label(root, text="Click the button to get a fun fact!")
     label.pack(pady=10)
